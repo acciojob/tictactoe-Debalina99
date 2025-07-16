@@ -67,7 +67,7 @@ function startGame(player1, player2) {
       }
 
       if (currentPlayer === 'x') {
-        currentPlayer = 'O';
+        currentPlayer = 'o';
         currentName = player2;
       } else {
         currentPlayer = 'x';
