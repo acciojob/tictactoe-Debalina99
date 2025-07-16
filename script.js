@@ -47,7 +47,7 @@ function startGame(player1, player2) {
   const board = document.createElement('div');
   board.className = 'board';
 
-  let currentPlayer = 'X';
+  let currentPlayer = 'x';
   let currentName = player1;
   let gameOver = false;
   const cells = [];
@@ -66,11 +66,11 @@ function startGame(player1, player2) {
         return;
       }
 
-      if (currentPlayer === 'X') {
+      if (currentPlayer === 'x') {
         currentPlayer = 'O';
         currentName = player2;
       } else {
-        currentPlayer = 'X';
+        currentPlayer = 'x';
         currentName = player1;
       }
       message.textContent = `${currentName}, you're up`;

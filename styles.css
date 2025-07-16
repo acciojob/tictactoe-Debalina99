@@ -2,14 +2,17 @@
 .cell {
   width: 100px;
   height: 100px;
-  background-color: pink;
+  border: 1px solid black;
   font-size: 40px;
+  text-align: center;
+  vertical-align: middle;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: pink;
   cursor: pointer;
-  border: 1px solid black;
 }
+
 .board {
   display: grid;
   grid-template-columns: repeat(3, 100px);
