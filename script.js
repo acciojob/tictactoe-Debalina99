@@ -6,11 +6,11 @@ const container = document.createElement('div');
     heading.textContent = 'Tic Tac Toe';
 
     const input1 = document.createElement('input');
-    input1.id = 'player-1';
+    input1.id = 'player1';
     input1.placeholder = 'Player 1';
 
     const input2 = document.createElement('input');
-    input2.id = 'player-2';
+    input2.id = 'player2';;
     input2.placeholder = 'Player 2';
 
     const submitBtn = document.createElement('button');
@@ -51,7 +51,7 @@ function startGame(player1, player2) {
       let currentName = player1;
       let gameOver = false;
       const cells = [];
-	
+
      
       for (let i = 1; i <= 9; i++) {
         const cell = document.createElement('div');
