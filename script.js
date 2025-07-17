@@ -61,7 +61,7 @@ function startGame(player1,player2) {
 			cell.textContent=currentPlayer;
 			
 		if(checkWinner()){
-			message.textContent=`${currentName}, congratulations you won!`;
+			message.textContent=`${currentName} congratulations you won!`;
 			gameOver=true;
 			return;
 		}
