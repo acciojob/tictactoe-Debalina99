@@ -2,12 +2,14 @@ const container= document.createElement("div");
 container.className="container";
 
 const heading= document.createElement("h1");
-heading.textContent="TIC TAC TOE";
+heading.textContent="Tic Tac Toe";
 
 const input1= document.createElement("input");
+input1.id = 'player1';
 input1.placeholder="Player 1 name";
 
 const input2= document.createElement("input");
+input2.id = 'player2';
 input2.placeholder="Player 2 name";
 
 const submitBtn =document.createElement("button");
