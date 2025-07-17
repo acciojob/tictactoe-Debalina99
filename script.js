@@ -13,6 +13,7 @@ input2.id = 'player2';
 input2.placeholder="Player 2 name";
 
 const submitBtn =document.createElement("button");
+submitBtn.id = 'submit';
 submitBtn.textContent="Start Game"
 
 container.appendChild(heading);
